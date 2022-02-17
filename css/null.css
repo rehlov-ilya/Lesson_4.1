@@ -1,0 +1,28 @@
+/*Обнуляющий стиль*/
+*{
+	margin: 0;/*отступы*/	
+	padding:0;/*отступы*/
+	border: 0;/*границы*/
+}
+li {
+	list-style: none;
+}
+a,
+a:visited{
+	text-decoration:none;
+}
+a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5{
+		font-weight: inherit;
+		font-size: inherit;
+	}
+img{
+	vertical-align: top;
+}
